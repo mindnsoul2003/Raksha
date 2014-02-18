@@ -1,0 +1,6 @@
+<magicTemplate>
+	<freePicksPredicate defaultResponse="true"/>
+	<charmTemplate charmType="Raksha">
+		<martialArts level="Mortal"/>
+	</charmTemplate>
+</magicTemplate>		
