@@ -3,7 +3,7 @@
     <npcOnly/>
     <edition edition="SecondEdition"/>
     <abilityGroups uses="trait/RakshaAbilityGroup2nd.template" />
-    <attributeGroups uses="trait/DefaultAttributeGroup.template"/>
+    <attributeGroups uses="trait/RakshaAttributeGroup.template"/>
     <essence uses="template/RakshaEssence.template" />
     <traitCollection uses="trait/DefaultTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
