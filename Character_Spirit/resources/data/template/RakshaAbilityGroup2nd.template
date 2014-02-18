@@ -1,0 +1,38 @@
+<abilityGroups>
+  <group id="Diploma" casteId="Diplomat">
+    <trait type="Linguistics" />
+    <trait type="Occult" />
+    <trait type="Ride" />
+    <trait type="Socialize" />
+    <trait type="Thrown"/>
+  </group>
+  <group id="Entertainer" casteId="Entertainer">
+    <trait type="Investigation" />
+    <trait type="Larceny" />
+    <trait type="Medicine" />
+    <trait type="Performance" />
+    <trait type="Stealth" />
+  </group>
+  <group id="Warrior" casteId="Warrior">
+    <trait type="Archery" />
+    <trait type="MartialArts" />
+    <trait type="Melee" />
+    <trait type="Presence" />
+    <trait type="War" />
+  </group>
+  <group id="Worker" casteId="Worker">
+    <trait type="Bureaucracy" />
+    <trait type="Craft" />
+    <trait type="Integrity" />
+    <trait type="Lore" />
+    <trait type="Resistance" />
+  </group>
+  <group id="Guide" casteId="Guide">
+    <trait type="Athletics" />
+    <trait type="Awareness" />  
+    <trait type="Dodge" />
+    <trait type="Sail" />
+    <trait type="Socialize" />
+  </group> 
+</abilityGroups>
+
