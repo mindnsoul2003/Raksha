@@ -8,8 +8,22 @@
     <traitCollection uses="trait/RakshaTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
     <presentation uses="template/RakshaPresentation2nd.template"/>
+        <additionalRules uses="template/InfernalAdditionalRules2nd.template">
+      <revisedIntimacies value="true"/>
+      <willpowerVirtueBased value="false"/>
+    </additionalRules>
     <healthTemplate>
       <toughnessControllingTrait type="Valor"/>
     </healthTemplate>
   </general>
+      <creationPoints>
+      <attributeDots primary="8" secondary="6" tertiary="4"/>
+      <abilityDots general="18" favored="10" favoredPicks="5"/>
+      <backgroundDots count="7"/>
+      <virtueDots count="5"/>
+      <specialtyDots count="4"/>
+      <bonusPoints count="18"/>
+      <charmPicks favored="0" general="10"/>
+    </creationPoints>
+  </creation>
 </exaltedCharacterTemplate>
