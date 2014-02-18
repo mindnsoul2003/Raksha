@@ -4,7 +4,7 @@
     <edition edition="SecondEdition"/>
     <abilityGroups uses="trait/DefaultSecondEditionAbilityGroup.template" />
     <attributeGroups uses="trait/DefaultAttributeGroup.template"/>
-    <essence uses="template/SpiritEssence.template" />
+    <essence uses="template/RakshaEssence.template" />
     <traitCollection uses="trait/DefaultTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
     <presentation uses="template/SpiritPresentation2nd.template"/>
