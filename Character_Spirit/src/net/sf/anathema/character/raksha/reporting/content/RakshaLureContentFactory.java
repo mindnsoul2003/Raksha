@@ -9,18 +9,18 @@ import net.sf.anathema.lib.resources.Resources;
 
 
 @RegisteredReportContent(produces = RakshaLureContent.class)
-public class InfernalUrgeContentFactory implements ReportContentFactory<InfernalUrgeContent> {
+public class RakshaLureFactory implements ReportContentFactory<RakshaLureContent> {
   private Resources resources;
 
 
-  public InfernalUrgeContentFactory(Resources resources) {
+  public RakshaLureFactory(Resources resources) {
     this.resources = resources;
   }
 
 
   @Override
-  public InfernalUrgeContent create(ReportSession session, IGenericCharacter character) {
-    return new InfernalUrgeContent(resources, character);
+  public RakshaLureContent create(ReportSession session, IGenericCharacter character) {
+    return new RakshaLureContent(resources, character);
   }
 }
 
