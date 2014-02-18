@@ -11,7 +11,7 @@ public interface IRakshaSpecialCharms
 {
 	  @SuppressWarnings("serial")
       IOxBodyTechniqueCharm OX_BODY_TECHNIQUE = new OxBodyTechniqueCharm(
-		      "Raksha.OxBodyTechnique", OtherTraitType.Compassion,//$NON-NLS-1$
+		      "Raksha.OxBodyTechnique", OtherTraitType.Valor,//$NON-NLS-1$
 		      new LinkedHashMap<String, HealthLevelType[]>() {
 		        {
 		          put("Category.-1,-2", new HealthLevelType[] { HealthLevelType.ONE, HealthLevelType.TWO }); //$NON-NLS-1$
