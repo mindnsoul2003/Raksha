@@ -7,7 +7,7 @@
     <essence uses="template/RakshaEssence.template" />
     <traitCollection uses="trait/DefaultTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
-    <presentation uses="template/SpiritPresentation2nd.template"/>
+    <presentation uses="template/RakshaPresentation2nd.template"/>
     <healthTemplate>
       <toughnessControllingTrait type="Valor"/>
     </healthTemplate>
