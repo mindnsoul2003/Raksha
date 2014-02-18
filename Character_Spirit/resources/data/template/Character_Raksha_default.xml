@@ -3,9 +3,9 @@
     <npcOnly/>
     <edition edition="SecondEdition"/>
     <abilityGroups uses="trait/RakshaAbilityGroup2nd.template" />
-    <attributeGroups uses="trait/RakshaAttributeGroup.template"/>
+    <attributeGroups uses="trait/DefaultAttributeGroup.template"/>
     <essence uses="template/RakshaEssence.template" />
-    <traitCollection uses="trait/DefaultTraitCollection.template"/>
+    <traitCollection uses="trait/RakshaTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
     <presentation uses="template/RakshaPresentation2nd.template"/>
     <healthTemplate>
