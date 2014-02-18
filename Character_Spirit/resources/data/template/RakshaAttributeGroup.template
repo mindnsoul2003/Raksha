@@ -1,0 +1,7 @@
+<traitTemplates uses="trait/DefaultTraitCollection.template">
+    <attributes>
+        <defaultTrait startValue="3" lowerableState="Default">
+ 			      <limitation type="Static" value="7"/>
+            <minimum value="3"/>
+        </defaultTrait>
+    </attributes>
