@@ -1,5 +1,5 @@
 <abilityGroups>
-  <group id="Diploma" casteId="Diplomat">
+  <group id="Diplomat" casteId="Diplomat">
     <trait type="Linguistics" />
     <trait type="Occult" />
     <trait type="Ride" />
