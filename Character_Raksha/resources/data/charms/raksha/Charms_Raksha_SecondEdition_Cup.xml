@@ -21,7 +21,7 @@
 -->
 <charmlist>
 	<!-- Spirit Aegis -->
-	<charm id="Spirit.Blessed(Element)Body" exalt="Spirit" group="Aegis">
+	<charm id="Spirit.Blessed(Element)Body" exalt="Spirit" group="Cup">
 		<prerequisite>
 			<essence value="2"/>
 		</prerequisite>
