@@ -8,7 +8,7 @@
     <traitCollection uses="trait/RakshaTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
     <presentation uses="template/RakshaPresentation2nd.template"/>
-        <additionalRules uses="template/InfernalAdditionalRules2nd.template">
+        <additionalRules uses="AdditionalFamiliarRules2nd.template ">
       <revisedIntimacies value="true"/>
       <willpowerVirtueBased value="false"/>
     </additionalRules>
