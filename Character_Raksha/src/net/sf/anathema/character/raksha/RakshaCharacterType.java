@@ -6,7 +6,7 @@ import net.sf.anathema.character.generic.type.ICharacterType;
 import net.sf.anathema.initialization.reflections.Weight;
 
 @CharacterType
-@Weight(weight = 9)
+@Weight(weight = 10)
 public class RakshaCharacterType implements ICharacterType {
 
   @Override
@@ -31,7 +31,7 @@ public class RakshaCharacterType implements ICharacterType {
 
 
   public int hashCode() {
-    return 9;
+    return 10;
   }
 }
 
