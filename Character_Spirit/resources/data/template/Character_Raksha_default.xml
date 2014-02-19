@@ -1,22 +1,22 @@
 <exaltedCharacterTemplate characterType="Raksha" subtemplate="default">
   <general>
-    <npcOnly/>
     <edition edition="SecondEdition"/>
-    <abilityGroups uses="trait/RakshaAbilityGroup2nd.template" />
+    <abilityGroups uses="template/RakshaAbilityGroup2nd.template" />
     <attributeGroups uses="trait/DefaultAttributeGroup.template"/>
     <essence uses="template/RakshaEssence.template" />
-    <traitCollection uses="trait/RakshaTraitCollection.template"/>
+    <traitCollection uses="template/RakshaTraitCollection.template"/>
     <magicTemplate uses="template/RakshaMagic2nd.template"/>
     <presentation uses="template/RakshaPresentation2nd.template"/>
-        <additionalRules uses="AdditionalFamiliarRules2nd.template ">
-      <revisedIntimacies value="true"/>
-      <willpowerVirtueBased value="false"/>
-    </additionalRules>
     <healthTemplate>
       <toughnessControllingTrait type="Valor"/>
     </healthTemplate>
+        <additionalTemplates>
+      <template id="Raksha.Lure.Template"/>
+    </additionalTemplates>
   </general>
-      <creationPoints>
+   <creation>
+     <bonusPointCosts uses="SolaroidDefaultBonusPointCost2nd.template"/>
+     <creationPoints>
       <attributeDots primary="8" secondary="6" tertiary="4"/>
       <abilityDots general="18" favored="10" favoredPicks="5"/>
       <backgroundDots count="7"/>
